@@ -15,11 +15,6 @@ const authConfig = {
       return !!auth?.user;
     },
   },
-
-  // authorized({ auth, request }) {
-  //     console.log("req", auth);
-  //     return !!auth?.user;
-  //   },
 };
 
 export const {
